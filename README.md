@@ -12,8 +12,8 @@ sumofweightforpbands.py  计算投影能带权重，并生成图片方便用户�
 如果按照此目录架构部署，所有.py程序可直接运行，否则需要更改.py中的文件路径
 
 材料(自洽计算目录)
-      |                          
-{ DOSCAR(态密度文件), PROCAR(投影能带数据文件), TDOS_SOC.dat(总的态密度文件，可以用vaspkit生成),       eb(能带计算目录),                       wann_cal(构建wannier模型目录), ... }
-                                                                                                  |                                                |
-                                                    { projbands.py, pband_dir(投影能带计算目录), sumofweightforpbands.py,... }     { Wannier_auto.py, wannier90.win,... }
+       |                          
+{ DOSCAR(态密度文件), PROCAR(投影能带数据文件), TDOS_SOC.dat(总的态密度文件，可以用vaspkit生成),       eb(能带计算目录),                      wann_cal(构建wannier模型目录), ... }
+                                                                                                     |                                            |
+                                                  { projbands.py, pband_dir(投影能带计算目录), sumofweightforpbands.py,... }       { Wannier_auto.py, wannier90.win,... }
 
