@@ -1,0 +1,20 @@
+#体系相关部分
+num_bands = 92 #考虑进去的DFT能带数，等于DFT总能带数减去exclude_bands中的能带数
+num_wann = 82 #Wannier轨道数，需要考虑spinor
+dis_froz_max = 9.64  #小能窗上限
+dis_froz_min = -1.86 #小能窗下限
+exclude_bands 1-4 
+begin projections
+Sn: s;p
+Co: s;p;d
+S: p
+end projections
+################
+dis_num_iter = 2000 #解纠缠的最大迭代步数
+dis_mix_ratio = 1 #解纠缠迭代时的mix程度
+iprint = 2 #控制输出文件内容的多少
+num_iter = 0 #完成解纠缠后最局域化过程的迭代次数,一般解纠缠步骤已经满足要求了
+num_print_cycles = 100
+conv_window = 3
+#write_hr = T
+
