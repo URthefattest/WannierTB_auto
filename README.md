@@ -13,7 +13,5 @@ sumofweightforpbands.py:  Calculate the projected band weights and generate figu
 
 
 Recommended directory structure:
-
 <img src="Directory Structure.png" alt="Directory Structure" width="600"/>
-
 If the project is deployed according to this directory structure, all ".py" programs can be run directly; otherwise, the file paths in the ".py" scripts need to be modified.
