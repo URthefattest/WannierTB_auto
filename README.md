@@ -3,12 +3,14 @@ Automatically generate input files for Wannier90 software to construct Wannier t
 If you use our code for your research, please cite: https://doi.org/10.48550/arXiv.2506.03871
 
 Code list:
-Wannier_auto.py  自动生成合适的Wannier90软件的输入文件"wannier90.win"
-wannier90.win  Wannier90软件的输入文件模板
-projbands.py  自动生成投影能带结构数据，并存放于pband_dir目录下
-sumofweightforpbands.py  计算投影能带权重，并生成图片方便用户直观了解投影能带权重分布以及对应的能带指标范围
+Wannier_auto.py:  Automatically generate appropriate input file "wannier90.win" for the Wannier90 software. 
+
+wannier90.win:  Input file template for the Wannier90 software.
+
+projbands.py:  Automatically generate the projected band structure data and store it in the "pband_dir" directory.
+
+sumofweightforpbands.py:  Calculate the projected band weights and generate figures to help users intuitively understand the distribution of the weights as well as the corresponding band index ranges.
 
 
-建议目录架构：
-如果按照此目录架构部署，所有.py程序可直接运行，否则需要更改.py中的文件路径
-![Directory Configuration](Directory Configuration.png)
+Recommended directory structure:
+If the project is deployed according to this directory structure, all ".py" programs can be run directly; otherwise, the file paths in the ".py" scripts need to be modified.
