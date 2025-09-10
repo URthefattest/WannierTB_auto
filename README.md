@@ -12,5 +12,8 @@ projbands.py:  Automatically generate the projected band structure data and stor
 sumofweightforpbands.py:  Calculate the projected band weights and generate figures to help users intuitively understand the distribution of the weights as well as the corresponding band index ranges.
 
 
-Recommended directory structure: <img src="Directory Structure.png" alt="Directory Structure" width="600"/>
+Recommended directory structure:
+
+<img src="Directory Structure.png" alt="Directory Structure" width="600"/>
+
 If the project is deployed according to this directory structure, all ".py" programs can be run directly; otherwise, the file paths in the ".py" scripts need to be modified.
